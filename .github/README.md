@@ -17,7 +17,7 @@ Song.count
 # => 30
 We need our Song class to be able to show us all of the artists of existing songs:
 
-Song.artists
+Song. artists
 # ["Jay-Z", "Drake", "Beyonce"]
 We need our Song class to be able to show us all of the genres of existing songs:
 
@@ -79,3 +79,34 @@ Classes - Python
 Python Class Attributes: An Overly Thorough Guide - Toptal
 Python's Instance, Class, and Static Methods Demystified - Real Python
 The Factory Method Pattern and Its Implementation in Python - Real Python
+About
+No description, website, or topics provided.
+Resources
+ Readme
+License
+ View license
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+Python
+100.0%
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+
+
