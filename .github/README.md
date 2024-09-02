@@ -1,11 +1,11 @@
-#CLASS ATTRIBUTE AND METHOD LABS
+# CLASS ATTRIBUTE AND METHOD LABS
 
-#Learning Goals
+# Learning Goals
 .Use class attributes and methods to write durable and powerful code.
 .Store and access song data using class attributes and methods.
 .Accomplish complex programming tasks using knowledge from previous modules.
 
-#Key Vocab
+# Key Vocab
 
 .Attribute: variables that belong to an object.
 .Constant: a variable whose value cannot be changed.
@@ -14,18 +14,18 @@
 .Static: an attribute or method that cannot manipulate the class or instance it belongs to.
 .Exception: an error that occurs during the execution of a program. Exceptions can be anticipated and handled without disrupting the execution of the program.
 
-#Introduction
+# Introduction
 In this lab, we'll be dealing with a Song class. The Song class can produce individual songs. Each song has a name, an artist and a genre. We need our Song class to be able to keep track of the number of songs that it creates.
 
-#Song. count
+# Song. count
 => 30
 We need our Song class to be able to show us all of the artists of existing songs:
 
-#Song. artists
+# Song. artists
 ["Jay-Z", "Drake", "Beyonce"]
 We need our Song class to be able to show us all of the genres of existing songs:
 
-#Song. genres
+# Song. genres
 => ["Rap", "Pop"]
 We also need our Song class to be able to keep track of the number of songs of each genre it creates.
 
@@ -41,7 +41,7 @@ Song.artist_count
 # {"Beyonce": 17, "Jay-Z": 40}
 We'll accomplish this with the use of class attributes and class methods.
 
-#Instructions
+# Instructions
 
 Define your Song class such that an individual song is initialized with a name, artist, and genre.
 
@@ -78,7 +78,7 @@ This manner of displaying numerical data is called a histogram. How will you cre
 You can need to iterate over the genres list and populate a dictionary with the key/value pairs. You will need to check to see if the hash already contains a key of a particular genre. If so, increment the value of that key by one, otherwise, create a new key/value pair.
 add_to_artist_count(): creates a histogram similar to the one above, but for artists rather than genres.
 
-#Resources
+# Resources
 Python Documentation
 Classes - Python
 Python Class Attributes: An Overly Thorough Guide - Toptal
